@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+  }
+  
+  *{
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0%;
+  }

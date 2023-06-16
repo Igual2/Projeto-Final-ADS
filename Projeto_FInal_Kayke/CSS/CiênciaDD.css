@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    background: url(/IMG/F_CDD.png);
+    background-size: 100%;
+}
+
+.teste1, .teste2, .teste3{
+    visibility: hidden;
+}
+
+h1, h2, li{
+    color: white;
+}
+
+::-webkit-scrollbar
+  {
+    width: 0;
+  }
+  #scrollPath
+  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  #progressbar
+  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #000000,#000000);
+    animation: animate 5s linear infinite;
+  }
+
+  #progressbar::before
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #633087,#15081b);
+    filter: blur(30px);
+  }
+  #progressbar::after
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #114ac6,#000000);
+    filter: blur(0px);
+  }
+
+  .container3{
+    position: absolute;
+    top: 3%;
+    left: 88%;
+    border-radius: 50%;
+    background-color: #9b59b6;
+    background-image: linear-gradient(#000000, #282b2b, #000000);
+  }
+
+  .spanzis{
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+  }

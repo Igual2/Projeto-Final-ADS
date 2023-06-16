@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.container3{
+    position: absolute;
+    top: 3%;
+    left: 88%;
+    border-radius: 50%;
+    background-color: #9b59b6;
+    background-image: linear-gradient(#000000, #282b2b, #000000);
+  }
+
+  .teste4, .teste5, .teste6{
+    visibility: hidden;
+}
+
+h1, h2, li{
+  color: white;
+}
+
+.spanzis{
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+}
